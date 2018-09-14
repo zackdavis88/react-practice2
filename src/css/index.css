@@ -7,3 +7,23 @@ body {
 .text-gold{
   color: gold;
 }
+
+#input-panel{
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #181D25;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow:    5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow:         5px 5px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.time-input{
+  width: 75px;
+}
+
+#input-button{
+  margin-top: 25px;
+}

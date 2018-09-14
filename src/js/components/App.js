@@ -1,13 +1,15 @@
 import React from 'react';
+import TimeInput from './TimeInput';
 
-class CountdownTimerApp extends React.Component{
+class App extends React.Component{
   render(){
     return (
       <div className="container text-center">
         <h1 className="font-weight-bold text-gold">ReactJS Countdown Timer</h1>
+        <TimeInput />
       </div>
     );
   }
 };
 
-export default CountdownTimerApp;
+export default App;
